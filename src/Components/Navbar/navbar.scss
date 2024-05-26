@@ -1,0 +1,28 @@
+.navbar{
+    height: 100px;
+    // padding-top: 2rem;
+    
+    .wrapper{
+        max-width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100%;
+        // background-color: rebeccapurple;
+    }
+
+    span{
+        font-weight: bold;
+    }
+
+    .social{
+        display: flex;
+        gap: 10px;
+
+        img{
+            width:30px;
+            height:30px;
+        }
+    }
+}
