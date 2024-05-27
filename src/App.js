@@ -3,6 +3,7 @@ import './App.css';
 import './app.scss';
 import Navbar from './Components/Navbar/navbar.jsx'
 import Sidebar from './Components/sidebar/Sidebar.jsx'
+import Intro from './Components/intro/Intro.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <section id="Homepage">
         <Sidebar/>
         <Navbar/>
+        <Intro/>
       </section>
       <section id = "Services">Parallex</section>
       <section>Services</section>

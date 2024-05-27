@@ -3,7 +3,7 @@
     // padding-top: 2rem;
     
     .wrapper{
-        max-width: 60%;
+        max-width: 80%;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -13,16 +13,19 @@
     }
 
     span{
+        font-size: 40px;
         font-weight: bold;
     }
 
     .social{
         display: flex;
-        gap: 10px;
+        gap: 20px;
 
         img{
             width:30px;
             height:30px;
+            border-radius: 20%;
+            
         }
     }
 }

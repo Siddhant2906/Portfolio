@@ -1,12 +1,16 @@
 .sidebar{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: black;
+    
 
     .bg{
+       
+       
         position: fixed;
         width: 230px;
         top: 0;
@@ -26,6 +30,7 @@
 
              a{
                font-size: 30px;
+
              }
 
         }
