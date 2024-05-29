@@ -11,11 +11,29 @@
     }
 
     .mountains{
-       background-image: url('/mountains.png');
+       background-image: url('C:\Users\gsidd\Desktop\VS Code\Portfolio Website\myapp\public\mountains.png');
        background-size: cover;
-       background-position: position;
+       background-position: bottom;
        width: 100%;
        height: 100%;
-       position: relative;
+       position: absolute;
     }
+
+    .stars{
+        background-image: url('C:\Users\gsidd\Desktop\VS Code\Portfolio Website\myapp\public\stars.png');
+        background-size: cover;
+        background-position: position;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+     }
+
+     .planets{
+        background-image: url('C:\Users\gsidd\Desktop\VS Code\Portfolio Website\myapp\public\planets.png');
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+     }
 }
