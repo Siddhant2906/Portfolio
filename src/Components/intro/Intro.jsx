@@ -33,12 +33,13 @@ const sliderVariants={
         x: "100%", // Start outside the container to the right
       },
       animate: {
-        x: "-100%", // Move the text completely to the left
+        x: "-400%", // Move the text completely to the left
         transition: {
-          duration: 20, // Adjust the duration as needed
-          ease: "linear", // Use a linear transition for smooth continuous movement
-        //   repeat: Infinity, // Repeat infinitely
-         repeatType:"mirror",
+          duration: 18, // Adjust the duration as needed
+        //   ease: "linear", // Use a linear transition for smooth continuous movement
+          repeatType:"linear",
+          repeat: Infinity, // Repeat infinitely
+        
         },
       },
 };
