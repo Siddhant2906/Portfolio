@@ -1,5 +1,8 @@
 import './intro.scss'
 import {motion} from 'framer-motion'
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const textVariants={
     initial:{
@@ -46,6 +49,30 @@ const sliderVariants={
 
 
 const Intro = () => {
+
+
+    
+    useGSAP(
+        () => {
+            // ✅ safe, created during execution, selector text scoped
+
+          
+
+          
+          
+          
+
+            gsap.from(".imagecontainer " , {
+                
+                opacity: 0,
+                duration: 3,
+                // stagger:2,
+            },)
+
+
+        });
+
+
     return (
         <div className='intro'>
 

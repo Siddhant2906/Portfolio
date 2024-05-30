@@ -1,0 +1,147 @@
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    // background-color: rgb(141, 218, 248);
+    // background: linear-gradient(180deg, #0c0c1d, #111132);
+    background-color: white;
+
+
+    .elem {
+        flex-shrink: 0;
+        height: 30%;
+        width: 45%;
+        background-color: rgb(14, 13, 13);
+        //  background: linear-gradient(180deg, #f1e5ef, #111132);
+        border-radius: 10px;
+        //    border: 2px solid rgb(254, 251, 251);
+        color: rgb(255, 249, 249);
+        // box-shadow: 0px 10px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+
+    #elem1 {
+        font-size: 50px;
+    }
+
+    #elem2 {
+        font-size: 50px;
+        // color: rgb(14, 13, 13);
+        // color:#111132;
+      
+        // background-color: rgb(169, 246, 231);
+        background-color: #111132;
+        color:white;
+        box-shadow: 0px 0px 0px black;
+        border: 2px solid rgb(10, 9, 9);
+        font-size: 48px;
+    }
+
+
+    #elem3 {
+        font-size: 50px;
+        color: rgb(13, 12, 12);
+        background-color:  rgb(247, 251, 250);
+        box-shadow: 0px 0px 0px black;
+        border: 2px solid rgb(10, 9, 9);
+       
+
+        #part1{
+            font-size: 43px;
+            width:60%
+        }
+
+        #part2{
+            
+            width:40%;
+            img{
+                width:100%;
+            }
+        }
+    }
+
+
+    #elem4 {
+        // font-size: 50px;
+        color: rgb(254, 253, 253);
+        background-color: #111132;
+        box-shadow: 0px 0px 0px black;
+        border: 2px solid rgb(10, 9, 9);
+       
+       
+       
+
+        #part1{
+
+            padding: 20px;
+            width:100%;
+
+            ul{
+                font-size: 33px;
+               
+                height:100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: space-between;
+                // padding:20px;
+            }
+           
+            
+        }
+
+        #part2{
+            
+            width:50%;
+            img{
+                width:100%;
+            }
+        }
+    }
+
+
+
+    #elem5{
+        font-size: 50px;
+        color: rgb(13, 12, 12);
+        background-color:  rgb(247, 251, 250);
+        box-shadow: 0px 0px 0px black;
+        border: 2px solid rgb(10, 9, 9);
+       
+
+        #part1{
+            font-size: 30px;
+            width:50%
+        }
+
+        #part2{
+            
+            width:50%;
+            img{
+                width:100%;
+            }
+        }
+    }
+
+
+    #elem6{
+        #part1{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: space-between;
+        }
+    }
+
+
+
+
+
+}

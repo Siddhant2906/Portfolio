@@ -6,7 +6,7 @@
 }
 
 html{
-    scroll-snap-type: y mandatory;
+    // scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
@@ -21,9 +21,18 @@ a{
 }
 
 section{
-    scroll-snap-align:center;
+    // scroll-snap-align:center;
+   
     height: 100vh;
+
+    
 }
+
+#heightlarger{
+    height: 200vh;
+}
+
+
 
 
 

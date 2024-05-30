@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar/navbar.jsx'
 import Sidebar from './Components/sidebar/Sidebar.jsx'
 import Intro from './Components/intro/Intro.jsx'
 import Parallax from './Components/parallax/Parallax.jsx';
+import Dsa from './Components/dsa/Dsa.jsx'
+
 
 function App() {
   return (
@@ -18,7 +20,10 @@ function App() {
       <section id = "Services">
         <Parallax type="DSA"/>
       </section>
-      <section>Services</section>
+
+      <section id="heightlarger">
+          <Dsa/>
+      </section>
 
       <section id="Portfolio">
       <Parallax type="Dev"/>
@@ -29,7 +34,7 @@ function App() {
 
 
       <section id="Contact">Contact</section>
-      <section id="About">Contact</section>
+      {/* <section id="About">Contact</section> */}
       
     </div>
   );
