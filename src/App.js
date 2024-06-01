@@ -5,7 +5,10 @@ import Navbar from './Components/Navbar/navbar.jsx'
 import Sidebar from './Components/sidebar/Sidebar.jsx'
 import Intro from './Components/intro/Intro.jsx'
 import Parallax from './Components/parallax/Parallax.jsx';
-import Dsa from './Components/dsa/Dsa.jsx'
+import Dsa from './Components/dsa/Dsa.jsx';
+import Camera from './Components/camera/Camera.jsx';
+import Projects from './Components/projects/Projects.jsx';
+import Contacts from './Components/contact/Contacts.jsx';
 
 
 function App() {
@@ -17,7 +20,7 @@ function App() {
         <Intro/>
       </section>
 
-      <section id = "Services">
+      <section id = "Coding">
         <Parallax type="DSA"/>
       </section>
 
@@ -28,12 +31,24 @@ function App() {
       <section id="Portfolio">
       <Parallax type="Dev"/>
       </section>
-      <section>Portfolio1</section>
+
+
+      {/* <section>
+        <Camera/>
+      </section>
+
+
+
       <section>Portfolio2</section>
-      <section>Portfolio3</section>
+      <section>Portfolio3</section> */}
 
 
-      <section id="Contact">Contact</section>
+      <Projects/>
+
+
+      <section id="Contact">
+        <Contacts/>
+      </section>
       {/* <section id="About">Contact</section> */}
       
     </div>

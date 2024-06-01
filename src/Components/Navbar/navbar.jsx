@@ -13,10 +13,10 @@ const Navbar = () => {
                     Sidd's Galaxy</motion.span>
 
                 <div className='social'>
-                    <a href='#'><img src="/leetcode1.png" alt=''/></a>
-                    <a href='#'><img src='/linkedin-2.png' /></a>
-                    <a href='#'><img src='/github_logo.png' /></a>
-                    <a href='#'><img src='/cf.png' /></a>
+                    <a href='https://leetcode.com/u/gsiddhant_2906/'><img src="/leetcode1.png" alt=''/></a>
+                    <a href='https://www.linkedin.com/in/siddhant-gupta-37a38a212/'><img src='/linkedin-2.png' /></a>
+                    <a href='https://github.com/Siddhant2906'><img src='/github_logo.png' /></a>
+                    <a href='https://codeforces.com/profile/gsiddhant2906'><img src='/cf.png' /></a>
                     {/* <img src="myapp\public\LeetCode_Sharing.png" alt=''/> */}
                 </div>
 

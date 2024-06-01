@@ -132,4 +132,4 @@ const Dsa = () => {
     )
 }
 
-export default Dsa
+export default Dsa;
